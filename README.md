@@ -8,7 +8,7 @@ Suppression des limites inférieures à 2 km et de certaines petites îles.
 Chaque commune est décrite par au moins 1 polygone de surface non nulle.  
 Certains polygones peuvent être dégénérés par l'algorithme de simplification.  
 Restriction aux communes de métropole.  
-Transformation en coord. entières en centièmes de degrés dans la boite X: -5.25 -> 9.57, Y: -5.25 -> -5.25  
+Transformation en coord. entières en centièmes de degrés dans la boite X: -5.25 -> 9.57, Y: 41.36 -> 51.10  
 puis division des latitudes par le cosinus de la latitude moyenne.  
   
 Fichier généré le 2017-11-24  
