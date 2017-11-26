@@ -12,7 +12,9 @@ Le fichier SVG est restreint aux communes de métropole.
 Transformation en coord. entières en centièmes de degrés dans la boite X: -5.25 -> 9.57, Y: 41.36 -> 51.10  
 puis division des latitudes par le cosinus de la latitude moyenne.  
   
-Fichiers générés le 2017-11-24  
+Le fichier GeoJSON contient toutes communes de métrople et des DOM.
+
+Fichiers générés les 2017-11-24  et 2017-11-26  
   
 Source: AdminExpress du 16/10/2017 (http://professionnels.ign.fr/adminexpress)  
 
