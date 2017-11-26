@@ -2,7 +2,7 @@
 
 Fichier des polygones généralisés des communes françaises  
   
-Données dérivées d'AdminExpress (voir source) générées le 2017-11-24. Version béta.  
+Données dérivées d'AdminExpress (voir source) générées les 2017-11-24 et 2017-11-26. Version béta.  
 Simplification des limites entre communes par l'algo de Douglas &amp; Peucker avec un seuil de 1 km.  
 Suppression des limites inférieures à 2 km et de certaines petites îles.  
 Chaque commune est décrite par au moins 1 polygone de surface non nulle.  
