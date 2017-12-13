@@ -15,7 +15,7 @@ puis division des latitudes par le cosinus de la latitude moyenne.
 Il pèse moins de 3 Mo non compressé et moins de 700 Ko compressé.  
   
 Le fichier GeoJSON contient toutes communes de métrople et des DOM.
-Il pèse 
+Il pèse moins de 7 Mo non compressé et moins de 800 Ko compressé.
 
 Fichiers générés le 2017-12-13.  
   
