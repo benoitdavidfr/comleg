@@ -12,10 +12,14 @@ Certains polygones peuvent être dégénérés par l'algorithme de simplificatio
 Le fichier SVG est restreint aux communes de métropole.  
 Transformation en coord. entières en centièmes de degrés dans la boite X: -5.25 -> 9.57, Y: 41.36 -> 51.10  
 puis division des latitudes par le cosinus de la latitude moyenne.  
+Il pèse moins de 3 Mo non compressé et moins de 700 Ko compressé.  
   
 Le fichier GeoJSON contient toutes communes de métrople et des DOM.
+Il pèse 
 
 Fichiers générés le 2017-12-13.  
   
 Source: AdminExpress du 15/11/2017 (http://professionnels.ign.fr/adminexpress)  
 
+Des imperfections existent encore dans ce jeu de données expérimental.  
+Je suis intéressé à connaitre les utilisations de ce fichier.  
