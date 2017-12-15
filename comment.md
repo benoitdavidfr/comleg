@@ -8,14 +8,14 @@ Les coordonnées sont converties en coordonnées géographiques.
 
 ## 1) Fabriquer des limites mitoyennes
 Fonctionne en 2 phases:
-1. découpage des contours des communes en segments de droite et stockage dans MongoDB
+1. découpage des contours des communes en segments de droite
 2. structuration de ces segments sous la forme de limites ayant une commune à droite et à gauche soit une autre
-   soit aucune commune ; à chaque limite est associé une liste de points ; les limites sont stockées dans MongoDB
+   soit aucune commune ; à chaque limite est associée une liste de points
    
 Suppression des communes de Paris, Lyon et Marseille redondantes avec leurs arrondissements.
 
 ## 2) Redéfinir les communes à partir de ces limites
-- lecture des limites et affectation de chacune à sa commune droite et éventuellement sa commune gauche
+- lecture des limites et affectation de chacune à sa commune droite et éventuellement sa commune gauche    
   on définit la notion de brin qui est soit une limite soit une limite prise en sens inverse
 - organisation des limites en anneaux (rings) définis comme une liste de brins
 - chaque commune correspond à un ensemble de faces, chaque face correspond à un anneau extérieur plus
