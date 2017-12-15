@@ -40,8 +40,8 @@ délimitent comporte plus de 3 limites. Ceci est effectué par longueur croissan
 
 ## 5) Simplifier la géométrie des limites
 Cette étape consiste à réduire le nombre de points des limites et à arrondir leurs coordonnées en centièmes de degrés.
-La géométrie des limites est simplifiée par l'algorithe de Douglas & Peucker avec un seuil de 0,01 degré.
-Les coordonnées des points sont ramenées en centièmes de degrés.
+La géométrie des limites est simplifiée par l'algorithe de Douglas & Peucker avec un seuil de 0,01 degré.    
+Les coordonnées des points sont arrondies en centièmes de degrés.    
 On calcule alors la surface de chaque face. Si elle est inférieure à un certain seuil (1e-5) le calcul
 est effectué à nouveau en prenant comme seuil divisé par 10.
 
