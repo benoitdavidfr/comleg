@@ -43,7 +43,7 @@ Cette étape consiste à réduire le nombre de points des limites et à arrondir
 La géométrie des limites est simplifiée par l'algorithe de Douglas & Peucker avec un seuil de 0,01 degré.    
 Les coordonnées des points sont arrondies en centièmes de degrés.    
 On calcule alors la surface de chaque face. Si elle est inférieure à un certain seuil (1e-5) le calcul
-est effectué à nouveau en prenant comme seuil divisé par 10.
+est effectué à nouveau en divisant le seuil par 10 pour l'ensemble des limites de la face.
 
 ## 6) Générer un fichier GeoJSON ou SVG
 Les communes sont exportées dans un fichier GeoJSON ou SVG.
