@@ -22,4 +22,5 @@ Fichiers générés le 2017-12-15.
 Source: AdminExpress du 15/11/2017 (http://professionnels.ign.fr/adminexpress)  
 
 Des imperfections existent encore dans ce jeu de données expérimental.  
+L'algorithme utilisé pour produire ces données est décrit dans comment.md  
 Je suis intéressé à connaitre les utilisations de ce fichier.  
