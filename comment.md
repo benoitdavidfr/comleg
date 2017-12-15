@@ -32,7 +32,7 @@ Les communes correspondant à plusieurs faces sont rammenées à une seule.
 - lorqu'une commune comporte des îles soit dans la mer soit dans une autre commune, ces îles sont supprimées ;
   seule la face la plus grande est conservée
 - lorqu'une commune comporte plusieurs faces autres que des iles, seule la plus grande est conservée,
-  les plus petites sont intégrées dans une de leurs voisines
+  les plus petites sont fusionnées dans une de leurs voisines
 
 ## 4) Supprimer les petites limites
 Les limites d'une longueur inférieure à un certain seuil (0,02 degré) sont supprimées si les faces qu'elles
