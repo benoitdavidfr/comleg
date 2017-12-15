@@ -4,7 +4,7 @@
   <dc:title>Fichier des polygones généralisés des communes françaises</dc:title>
   <dc:creator>Benoit DAVID - MTES/CGDD/DRI/MIG</dc:creator>
   <dc:description>
-    Données dérivées d'AdminExpress (voir source) générées le 2017-12-13T08:58:47+00:00. Version béta.
+    Données dérivées d'AdminExpress (voir source) générées le 2017-12-15T13:16:36+00:00. Version béta.
     Simplification des limites entre communes par l'algo de Douglas &amp; Peucker avec un seuil de 0.01 degré.
     Suppression des limites inférieures à 0.02 degrés et de certaines petites îles.
     Chaque commune est décrite par au moins 1 polygone de surface non nulle.
@@ -13,7 +13,7 @@
     Transformation en coord. entières en centièmes de degrés dans la boite X: -5.25 -> 9.57, Y: 41.36 -> 51.10
     puis division des latitudes par le cosinus de la latitude moyenne.
   </dc:description>
-  <dc:date>Fichier généré le 2017-12-13T08:58:47+00:00</dc:date>
+  <dc:date>Fichier généré le 2017-12-15T13:16:36+00:00</dc:date>
   <dc:format>mime: image/svg+xml</dc:format>
   <dc:source xlink:type='simple' xlink:href='http://professionnels.ign.fr/adminexpress'>AdminExpress du 15/11/2017</dc:source>
   <dc:coverage xlink:type='simple' xlink:href='http://www.geonames.org/countries/FR/france.html'>France</dc:coverage>
@@ -14870,9 +14870,9 @@
 <polygon id='29124' points='92,364 93,361 96,366 92,367 92,364'/>
 <polygon id='29248' points='90,359 88,364 85,363 87,360 90,359'/>
 <polygon id='29288' points='98,370 94,370 96,366 98,370'/>
-<polygon id='29273' points='122,348 120,348 120,345 124,344 124,345 124,346 124,347 124,348 122,348'/>
-<polygon id='29239' points='124,348 124,347 124,346 124,345 124,344 124,343 125,343 124,344 125,344 125,345 126,345 126,344 126,343 127,343 127,344 128,343 129,344 128,344 128,345 128,346 126,347 124,348'/>
-<polygon id='29259' points='122,348 124,348 126,347 128,346 129,348 128,351 130,351 129,354 124,354 122,353 122,348'/>
+<polygon id='29273' points='122,348 120,348 120,345 124,344 124,347 122,348'/>
+<polygon id='29239' points='124,347 124,344 124,343 125,345 128,343 128,347 124,347'/>
+<polygon id='29259' points='122,348 124,347 128,347 129,348 128,351 130,351 129,354 124,354 122,353 122,348'/>
 <polygon id='90059' points='1219,496 1222,496 1222,497 1219,496'/>
 <polygon id='90067' points='1222,496 1219,496 1218,493 1220,493 1222,496'/>
 <polygon id='90062' points='1222,496 1223,493 1226,493 1225,496 1227,496 1226,496 1222,496'/>
@@ -30798,6 +30798,7 @@
 <polygon id='77268' points='805,321 808,321 809,324 805,321'/>
 <polygon id='77111' points='805,321 800,319 803,321 805,321'/>
 <polygon id='06162' points='1283,1022 1287,1013 1292,1009 1297,1015 1295,1019 1292,1022 1291,1025 1289,1026 1283,1022'/>
+<polygon id='06163' points='1292,1009 1287,1013 1283,1022 1279,1019 1271,1019 1267,1019 1268,1010 1268,1008 1281,1003 1287,1005 1288,1003 1293,1006 1292,1009'/>
 <polygon id='06132' points='1289,1026 1291,1025 1292,1026 1290,1031 1282,1034 1268,1026 1266,1023 1267,1019 1271,1019 1272,1022 1277,1025 1278,1026 1287,1026 1288,1028 1289,1026'/>
 <polygon id='06062' points='1283,1022 1289,1026 1288,1028 1287,1026 1278,1026 1277,1025 1272,1022 1271,1019 1279,1019 1283,1022'/>
 <polygon id='43122' points='902,864 898,864 900,862 902,860 904,862 902,864'/>
