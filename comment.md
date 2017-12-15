@@ -20,9 +20,9 @@ Suppression des communes de Paris, Lyon et Marseille redondantes avec leurs arro
 - organisation des limites en anneaux (rings) définis comme une liste de brins pour lesquels:
   - le dernier point d'un brin est identique au premier du brin suivant
   - le dernier point du dernier brin est identique au premier point du premier brin
-- chaque commune est structurée comme un ensemble de faces, chaque face correspond à un anneau extérieur plus
-  d'éventuels anneaux formant des trous ; cette structuration est réalisée en testant l'inclusion géométrique
-  des anneaux les uns dans les autres
+- en testant l'inclusion géométrique des anneaux les uns dans les autres
+  chaque commune est structurée comme un ensemble de faces, chaque face correspond à un anneau extérieur plus
+  d'éventuels anneaux formant des trous
 
 Gestion du cas particulier des communes 14756 et 14174 qui présentent une configuration spécifique.
 
