@@ -53,5 +53,5 @@ Transformation en coord. dans la boite X: -5.25 -> 9.57, Y: 41.36 -> 51.10
 puis division des latitudes par le cosinus de la latitude moyenne.  
 Le fichier pèse moins de 3 Mo non compressé et moins de 700 Ko compressé.  
 
-Le fichier GeoJSON contient toutes communes de métrople et des DOM.
+Le fichier GeoJSON contient toutes communes de métrople et des DOM.    
 Il pèse moins de 7 Mo non compressé et moins de 800 Ko compressé.
