@@ -17,9 +17,9 @@ Suppression des communes de Paris, Lyon et Marseille redondantes avec leurs arro
 ## 2) Redéfinir les communes à partir de ces limites
 - lecture des limites et affectation de chacune à sa commune droite et éventuellement sa commune gauche    
   on définit la notion de brin qui est soit une limite soit une limite prise en sens inverse
-- organisation des limites en anneaux (rings) définis comme une liste de brins pour lesquels le dernier point
-  d'un brin est identique au premier du brin suivant ; de même le dernier point du dernier brin est identique
-  au premier point du premier brin
+- organisation des limites en anneaux (rings) définis comme une liste de brins pour lesquels:
+  - le dernier point d'un brin est identique au premier du brin suivant
+  - le dernier point du dernier brin est identique au premier point du premier brin
 - chaque commune est structurée comme un ensemble de faces, chaque face correspond à un anneau extérieur plus
   d'éventuels anneaux formant des trous ; cette structuration est réalisée en testant l'inclusion géométrique
   des anneaux les uns dans les autres
