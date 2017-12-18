@@ -40,10 +40,11 @@ délimitent comporte plus de 3 limites. Ceci est effectué par longueur croissan
 
 ## 5) Simplifier la géométrie des limites
 Cette étape consiste à réduire le nombre de points des limites et à arrondir leurs coordonnées en centièmes de degrés.
-La géométrie des limites est simplifiée par l'algorithe de Douglas & Peucker avec un seuil de 1/100 degré.    
+La géométrie des limites est simplifiée par l'algorithe de Douglas & Peucker avec un seuil de 5/100 degré.    
 Les coordonnées des points sont arrondies en centièmes de degrés.    
-On calcule alors la surface de chaque face. Si elle est inférieure à un certain seuil (1e-5) le calcul
-est effectué à nouveau en divisant le seuil par 10 pour l'ensemble des limites de la face.
+On calcule alors la surface de chaque face. Si elle est inférieure à un certain seuil (1e-5) alors le calcul
+est effectué à nouveau en divisant le seuil par 10 pour l'ensemble des limites de la face.    
+Les limites correspondant à une côte ou une frontière sont simplifiées avec un seuil de 5/1000 degré et arrondies en millièmes de degrés.
 
 ## 6) Générer un fichier GeoJSON ou SVG
 Les communes sont exportées dans un fichier GeoJSON ou SVG.
@@ -54,4 +55,4 @@ puis division des latitudes par le cosinus de la latitude moyenne.
 Le fichier pèse moins de 3 Mo non compressé et moins de 700 Ko compressé.  
 
 Le fichier GeoJSON contient toutes communes de métrople et des DOM.    
-Il pèse moins de 7 Mo non compressé et moins de 800 Ko compressé.
+Il pèse moins de 7 Mo non compressé et moins de 900 Ko compressé.
