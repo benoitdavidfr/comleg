@@ -18,6 +18,9 @@ Il pèse moins de 3 Mo non compressé et moins de 700 Ko compressé.
 Le fichier GeoJSON contient toutes communes de métrople et des DOM.
 Il pèse moins de 7 Mo non compressé et moins de 900 Ko compressé.
 
+Des fichiers GeoJSON par région (+ 1 pour les 5 DOM) sont proposés dans le repository
+[geojson](https://github.com/benoitdavidfr/geojson).  
+
 Fichiers générés le 2017-12-18.  
   
 Source: AdminExpress du 15/11/2017 (http://professionnels.ign.fr/adminexpress)  
