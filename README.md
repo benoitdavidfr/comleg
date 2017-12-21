@@ -1,4 +1,4 @@
-# Simplifae - Simplification d'ADMIN EXPRESS
+# comleg - communes légères - Simplification d'ADMIN EXPRESS
 
 ADMIN-EXPRESS est une base de données de l'IGN qui décrit le découpage administratif français,
 notamment celui des communes.
@@ -8,7 +8,7 @@ Voir http://professionnels.ign.fr/adminexpress.
 La géométrie d'ADMIN EXPRESS correspond à une résolution de l'ordre de 10 m ce qui conduit à des fichiers
 relativement volumineux pour décrire la France entière.
 
-L'objectif de Simplifae est de générer des fichiers SVG et GeoJSON les plus légers possibles tout en conservant :
+L'objectif de comleg est de générer des fichiers SVG et GeoJSON les plus légers possibles tout en conservant :
 - au moins un polygone de surface non nulle par commune,
 - une partition de l'espace par les communes (cad que l'intérieur des communes ne s'intersectent pas).
 

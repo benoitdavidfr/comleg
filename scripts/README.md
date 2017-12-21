@@ -1,8 +1,7 @@
-# Scripts Php de Simplifae
+# Scripts Php de comleg
 
-L'objectif de Simplifae est de générer des fichiers SVG et GeoJSON les plus légers possibles.
-Le process enchaine plusieurs scripts utilisant un stockage intermédiaire dans MongoDB.
-Les scripts sont les suivants :
+L'objectif de comleg est de générer des fichiers SVG et GeoJSON les plus légers possibles.
+Pour cela les scripts Php suivants sont enchainés utilisant un stockage intermédiaire dans MongoDB:
 1. mklimdb.php lit les fichiers SHP d'origine, génère un GeoJSON et fabrique une collection c_lim
    des limites entre communes
 2. mkpol.php reconstruit chaque commune en s'appuyant sur les limites et peuple une collection c_pol
