@@ -13,7 +13,9 @@ L'objectif de comleg est de générer des fichiers SVG et GeoJSON les plus lége
 - une partition de l'espace par les communes (cad que l'intérieur des communes ne s'intersectent pas).
 
 Le processus de simplification enchaine plusieurs scripts utilisant un stockage intermédiaire dans MongoDB.
-Ces scripts sont dans le [répertoire scripts](https://github.com/benoitdavidfr/comleg/tree/master/scripts).  
+Ces scripts sont dans le [répertoire scripts](https://github.com/benoitdavidfr/comleg/tree/master/scripts).
+Le [répertoire geometry](https://github.com/benoitdavidfr/comleg/tree/master/geometry) contient une bibliothèque
+de gestion de la géométrie GeoJSON.  
 
 Le résultat de la simplification sous la forme de différents fichiers est dans le
 [répertoire output](https://github.com/benoitdavidfr/comleg/tree/master/output).
