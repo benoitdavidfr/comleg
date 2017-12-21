@@ -1,0 +1,32 @@
+title: geometry - gestion des primtives géométriques GeoJSON / WKT, remplace geom2d
+path: /geometry
+doc: |
+  Définition des primitives géométriques fondées sur OGC:WKT et GeoJSON
+  + chgt de syst. de coordonnées uniquement sur IAG_GRS_1980
+  Un arrondi peut être effectué au moyen de la méthode round() sur un Point/MultiPoint et filter() sur les autres primitives.
+journal: |
+  17/12/2017:
+    chgt de logique sur le nbre de digits des coordonnées:
+      L'arrondi est effectué au moyen de la méthode round() sur un Point ou un MultiPoint et filter() sur les autres
+      primitives.
+      Il n'est pas proposé en option à la création de la primitive ou lors de son affichage.
+      D'une part, le nombre de chiffres significatifs n'est pas forcément toujours le même, il doit pouvoir s'adapter.
+      D'autre part, l'affichage par défaut tient compte de l'arrondi effectué.
+  21/10/2017:
+  - première version
+htmlFiles:
+  - /geometry/index.html
+phpScripts:
+phpIncludes:
+  - /geometry/inc.php
+  - /geometry/geometry.inc.php
+  - /geometry/coordsys.inc.php
+  - /geometry/point.inc.php
+  - /geometry/bbox.inc.php
+  - /geometry/linestring.inc.php
+  - /geometry/polygon.inc.php
+  - /geometry/multigeom.inc.php
+  - /geometry/multipoint.inc.php
+  - /geometry/multilinestring.inc.php
+  - /geometry/multipolygon.inc.php
+  - /geometry/geomcoll.inc.php
